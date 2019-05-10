@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+
+
+
+    <View
+        android:id="@+id/dingwei"
+        android:layout_centerInParent="true"
+        android:layout_width="5sp"
+        android:layout_height="15sp"/>
+
+    <!--android:layout_width="83sp"
+    android:layout_height="90sp"-->
+    <ImageView
+        android:id="@+id/dipan"
+        android:layout_below="@id/dingwei"
+        android:layout_centerHorizontal="true"
+        android:layout_width="90sp"
+        android:layout_height="98.7sp"
+        android:src="@mipmap/robot_a4_underpan1"
+        />
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_3"
+        android:layout_above="@id/dipan"
+        android:layout_centerHorizontal="true"
+        android:layout_width="10sp"
+        android:layout_height="130sp"
+        android:progress="0"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        app:progressDegree="-90"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_4"
+        android:layout_above="@id/dipan"
+        android:layout_toRightOf="@id/ss_a4_3"
+        android:layout_width="10sp"
+        android:layout_height="130sp"
+        android:progress="0"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        app:progressDegree="-90"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_2"
+        android:layout_above="@id/dipan"
+
+        android:layout_toLeftOf="@id/ss_a4_3"
+        android:layout_width="10sp"
+        android:layout_height="130sp"
+        android:progress="0"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        app:progressDegree="-90"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_above="@id/ss_a4_3"
+        android:layout_marginBottom="10sp"
+
+        />
+
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_7"
+        android:layout_below="@id/dipan"
+        android:layout_centerHorizontal="true"
+        android:layout_width="70sp"
+        android:layout_height="130sp"
+        android:progress="0"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        app:progressDegree="90"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+
+
+
+    <com.white.progressview.KevenProgressView
+        android:paddingBottom="16sp"
+        android:id="@+id/ss_a4_5"
+        android:layout_marginLeft="9sp"
+        android:layout_width="90sp"
+        android:layout_height="130sp"
+        android:layout_above="@+id/dipan"
+        android:layout_toRightOf="@+id/ss_a4_4"
+        android:progress="0"
+        app:progressDegree="-70"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+
+        />
+
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_1"
+        android:layout_marginRight="5sp"
+
+        android:layout_width="59sp"
+        android:layout_height="130sp"
+        android:layout_above="@+id/dipan"
+        android:layout_toLeftOf="@+id/ss_a4_2"
+
+        android:progress="0"
+        app:progressDegree="-110"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_0"
+        android:layout_marginTop="16sp"
+
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ss_a4_5"
+        android:layout_toLeftOf="@+id/dipan"
+        android:progress="0"
+        app:progressDegree="-180"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+    <com.white.progressview.KevenProgressView
+        android:id="@+id/ss_a4_6"
+        android:layout_marginTop="16sp"
+
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ss_a4_1"
+        android:layout_toRightOf="@+id/dipan"
+        android:progress="0"
+        app:progressDegree="0"
+        app:progressReachColor="@color/colormyPrimary"
+        app:progressTextColor="@color/colormyPrimary"
+        app:progressTextVisible="true"
+        android:max="100"
+        app:progressTextSuffix=""
+        app:progressTextSize = "12sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="（单位：CM）"
+        android:layout_marginBottom="8sp"
+        android:layout_marginRight="6sp"
+        android:textColor="#323232"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="startWithAnim"
+        android:text="start"
+        />
+
+
+</RelativeLayout>
